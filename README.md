@@ -86,5 +86,17 @@ Correcto
 
 
 
+ ### Otros ###
+
+Las versiones obsoletas de las normas sobre JSON son las siguientes:
+
+   + julio de 2006: RFC 4627: The application/json Media Type for JavaScript Object Notation, escrita por D. Crockford. Reemplazada en marzo de 2014 por la RFC 7159.
+   +   marzo de 2013: RFC 7158: The JavaScript Object Notation (JSON) Data Interchange Format, editada por Tim Bray. Reemplazada en marzo de 2014 por la RFC 7159.
+   + octubre de 2013: ECMA 404 (1º ed): The JSON Data Interchange Format. Reemplazada en diciembre de 2017 por la segunda versión.
+   +   enero de 2014: JSON-LD 1.0 (A JSON-based Serialization for Linked Data), editada por Manu Sporny y otros.
+   +  enero de 2014: JSON-LD 1.0 Processing Algorithms and API, editada por Dave Longley y otros.
+   +  marzo de 2014: RFC 7159: The JavaScript Object Notation (JSON) Data Interchange Format, editada por Tim Bray. Reemplazada en diciembre de 2017 por la RFC 8259.
+
+
 
 
