@@ -19,7 +19,49 @@ Una de las principales ventajas de usar YAML es la legibilidad y la escitura.
 JSON (JavaScript Object Notation) es un formato de texto pensado para el intercambio de datos. Su sintaxis está basada originalmente en la sintaxis de JavaScript, pero realmente es independiente de cualquier lenguaje de programación.
 El formato JSON fue definido por Douglas Crockford a finales de 2002 y dado a conocer a través de su página web http://json.org/. Esta página contenía la definición del formato y una implementación en Java. En poco tiempo el uso del formato se extendió y aparecieron implementaciones para todos los lenguajes de programación. El motivo de su éxito es su sencillez y facilidad de uso.
 
+ ###SINTAXIS ###
+
+
+En JSON existen dos tipos de elementos
+
+    matrices (arrays): Las matrices son listas de valores separados por comas. Las matrices se escriben entre corchetes [ ] 
 
 ````
 ```
-[1, "pepe", 3.14, "Pepito Conejo"]```
+[1, "pepe", 3.14, "Pepito Conejo"]
+```
+````
+
+
+objetos (objects). Los objetos son listas de parejas nombre / valor. El nombre y el valor están separados por dos puntos : y las parejas están separadas por comas. Los objetos se escriben entre llaves { } y los nombres de las parejas se escriben siempre entre comillas dobles. 
+
+
+````
+```
+{"nombre": "Pepito Conejo", "edad": 25, "carnet de conducir": true}
+```
+````
+
+
+Los espacios en blanco y los saltos de línea no son significativos, es decir, puede haber cualquier número de espacios en blanco o saltos de línea separando cualquier elemento o símbolo del documento. 
+
+
+````
+```
+Correcto
+
+[
+  {
+    "nombre": "Pepito Conejo",
+    "edad": 25,
+    "carnet de conducir": true
+  },
+  {
+    "nombre": "Ana Barberá",
+    "edad": 90,
+    "carnet de conducir": false
+  }
+]
+
+```
+````
