@@ -1,17 +1,5 @@
 > [!NOTE]
-> Useful information that users should know, even when skimming content.
-
-> [!TIP]
-> Helpful advice for doing things better or more easily.
-
-> [!IMPORTANT]
-> Key information users need to know to achieve their goal.
-
-> [!WARNING]
-> Urgent info that needs immediate user attention to avoid problems.
-
-> [!CAUTION]
-> Advises about risks or negative outcomes of certain actions.
+La información relatada en este documento podría no ser correcta
 
 
 
@@ -27,6 +15,14 @@ Una de las principales ventajas de usar YAML es la legibilidad y la escitura.
 + Tiene un soporte muy
 +  YAML también contiene valores sencillos (escalares), que son datos arbitrarios (codificados en Unicode) que se pueden utilizar como cadenas, números enteros, fechas, números o booleanos.
 
-
+| Command | Description |
+| --- | --- |
+| `gEjemplos de llamada y respuesta: | {
+  "jsonrpc": "2.0",
+  "method": "suma",
+  "params": [3, 4, 5],
+  "id": 181203
+}
+ |
 
 
