@@ -19,10 +19,10 @@ Una de las principales ventajas de usar YAML es la legibilidad y la escitura.
 JSON (JavaScript Object Notation) es un formato de texto pensado para el intercambio de datos. Su sintaxis está basada originalmente en la sintaxis de JavaScript, pero realmente es independiente de cualquier lenguaje de programación.
 El formato JSON fue definido por Douglas Crockford a finales de 2002 y dado a conocer a través de su página web http://json.org/. Esta página contenía la definición del formato y una implementación en Java. En poco tiempo el uso del formato se extendió y aparecieron implementaciones para todos los lenguajes de programación. El motivo de su éxito es su sencillez y facilidad de uso.
 
- ###SINTAXIS ###
+ ### SINTAXIS ###
 
 
-En JSON existen dos tipos de elementos
++ En JSON existen dos tipos de elementos
 
     matrices (arrays): Las matrices son listas de valores separados por comas. Las matrices se escriben entre corchetes [ ] 
 
@@ -33,7 +33,7 @@ En JSON existen dos tipos de elementos
 ````
 
 
-objetos (objects). Los objetos son listas de parejas nombre / valor. El nombre y el valor están separados por dos puntos : y las parejas están separadas por comas. Los objetos se escriben entre llaves { } y los nombres de las parejas se escriben siempre entre comillas dobles. 
++ objetos (objects). Los objetos son listas de parejas nombre / valor. El nombre y el valor están separados por dos puntos : y las parejas están separadas por comas. Los objetos se escriben entre llaves { } y los nombres de las parejas se escriben siempre entre comillas dobles. 
 
 
 ````
@@ -43,7 +43,7 @@ objetos (objects). Los objetos son listas de parejas nombre / valor. El nombre y
 ````
 
 
-Los espacios en blanco y los saltos de línea no son significativos, es decir, puede haber cualquier número de espacios en blanco o saltos de línea separando cualquier elemento o símbolo del documento. 
++ Los espacios en blanco y los saltos de línea no son significativos, es decir, puede haber cualquier número de espacios en blanco o saltos de línea separando cualquier elemento o símbolo del documento. 
 
 
 ````
@@ -65,3 +65,26 @@ Correcto
 
 ```
 ````
+
+### JSON-RPC ###
+
+| RPC | Descripcion |
+| --- | --- |
+| jsonrpc | Una cadena que indica la versión ("2.0") |
+| method | Una cadena que indica el método invocado. |
+| params | (optativo) una matriz o una lista de valores |
+| id | Un número o cadena establecido por el cliente |
+|jsonrpc | Una cadena que indica la versión ("2.0") |
+| result | (optativo) el resultado de la consulta, en forma de valor, matriz o lista.  |
+| 1error | (optativo) una matriz o una lista de errores, con la estructura siguiente:  |
+| 1.1code | Código de error (número entero) |
+| 1.2message | Descripción breve del error |
+| 1.3data | (optativo) matriz o lista de valores con información adicional sobre el error |
+
+
+
+
+
+
+
+
